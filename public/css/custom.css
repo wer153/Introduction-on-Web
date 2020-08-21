@@ -17,4 +17,8 @@ body {
   border-bottom: #303F9F 6px solid;
 }
 
+a:link, a:visited{
+  text-decoration: none;
+  color:#000000
+}
 /** color : cyan **/
