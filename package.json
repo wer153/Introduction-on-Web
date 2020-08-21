@@ -1,0 +1,25 @@
+{
+  "name": "introduction-on-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wer153/Introduction-on-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wer153/Introduction-on-Web/issues"
+  },
+  "homepage": "https://github.com/wer153/Introduction-on-Web#readme"
+}
