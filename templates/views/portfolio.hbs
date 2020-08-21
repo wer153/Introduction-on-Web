@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <title>김민기</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=defice-width, initial-scale=1, shrink-to-fit=no">
+    <!-- apply bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- apply custom CSS-->
+    <link rel="stylesheet" href="./css/custom.css">
+  </head>
+  <body>
+  <!-- create portfolio -->
+    {{>header}}
+    <section id="portfolio" class="mb-3 pt-4 pb-5">
+      <div class="text-center mt-5">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="container mt-3" style="max-width: 920px;">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="./img/aws.png">
+            <div class="card-body">
+              <h4 class="card-title">Amazon Web Services</h4>
+              <p class="card-text" style="text-align: just  ify">
+                I have experiences on projects on AWS platform and....
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <a href= "http://minki-weather-app.herokuapp.com/">
+              <img class="card-img-top" src="./img/weatherapp.png">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Weather App</h4>
+              <p class="card-text" style="text-align: justify">
+                This app simply shows the weather in address you type with intuitive icon and temperature bars indicating the actual temperature and sensible temperature.
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="./img/ssl.png">
+            <div class="card-body">
+              <h4 class="card-title">Network Project</h4>
+              <p class="card-text" style="text-align: just  ify">
+                *explain blah blah blah*
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./img/brickout.png">
+            <div class="card-body">
+              <h4 class="card-title">Javascript Webgame Brickout</h4>
+              <p class="card-text" style="text-align: justify">
+                Coding the classic game Brickout was a cool experience. This game is coded only with Javascript. blah blah blah
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="./img/ssl.png">
+            <div class="card-body">
+              <h4 class="card-title">Network Project</h4>
+              <p class="card-text" style="text-align: just  ify">
+                *explain blah blah blah*
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./img/mastermind.png">
+            <div class="card-body">
+              <h4 class="card-title">Python Webgame Mastermind</h4>
+              <p class="card-text" style="text-align: justify">
+                Once i was playing a board game mastermind with my girlfriend. Since i have terrible memory, i tend to forget stuff and make mistakes on this kinda games. So, i was figuring out how to solve this issue, and i came out a solution;why not coding it? This game is coded in python. blah blah blah
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{>footer}}
+    </section>
+    <!-- apply jquery javascript -->
+    <script src="./js/jquery.min.js"></script>
+      <!-- apply popper Javascript -->
+    <script src="./js/popper.min.js"></script>
+    <!-- apply bootstrap javascript -->
+    <script src=".js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -11,29 +11,7 @@
   </head>
   <body>
     <div id="home">
-    <!-- create navigator -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-      <div class="container">
-        <a href="index.html" class="navbar-brand">Kim Minki</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navCollapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="#home" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#career" class="nav-link">Career</a>
-            </li>
-            <li class="nav-item">
-              <a href="#portfolio" class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
-            </li>
-          </ul>
-      </nav>
+      {{>header}}
       <!-- create profile -->
       <section class="container mt-5 pt-5">
         <div class="text-center">
@@ -41,7 +19,7 @@
           <h2>Kim Minki</h2>
           <img src="./img/coffee.svg" class ="img-fluid mr-1">Programmer
         </div>
-	  </section>
+	    </section>
       <!-- create sub-profile -->
       <section id="career" class="bg-white text-dark mt-5 mb-3 pt-5 pb-4">
         <div class-"text-center">
@@ -62,194 +40,11 @@
               </ul>
             <h4>ETC</h4>
               <ul>
-                <li>2nd Grade on Korean History Test [한국사 검정능력시험 2급]</li>
+                <li>2nd Grade on Korean History Test<br>[한국사 검정능력시험 2급]</li>
               </ul>
           </div>
         </div>
-      </section>
-      <!-- create portfolio -->
-      <section id="portfolio" class="mb-3 pt-4 pb-5">
-        <div class="text-center mt-5">
-          <h2>Portfolio</h2>
-        </div>
-        <div class="container mt-3" style="max-width: 920px;">
-          <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="./img/aws.png">
-              <div class="card-body">
-                <h4 class="card-title">Amazon Web Services</h4>
-                <p class="card-text" style="text-align: just  ify">
-                  I have experiences on projects on AWS platform and....
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <a href= "http://minki-weather-app.herokuapp.com/">
-                <img class="card-img-top" src="./img/weatherapp.png">
-              </a>
-              <div class="card-body">
-                <h4 class="card-title">Weather App</h4>
-                <p class="card-text" style="text-align: justify">
-                  This app simply shows the weather in address you type with intuitive icon and temperature bars indicating the actual temperature and sensible temperature.
-                </p>
-
-              </div>
-            </div>
-          </div>
-          <hr>
-          <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="./img/ssl.png">
-              <div class="card-body">
-                <h4 class="card-title">Network Project</h4>
-                <p class="card-text" style="text-align: just  ify">
-                  *explain blah blah blah*
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="./img/brickout.png">
-              <div class="card-body">
-                <h4 class="card-title">Javascript Webgame Brickout</h4>
-                <p class="card-text" style="text-align: justify">
-                  Coding the classic game Brickout was a cool experience. This game is coded only with Javascript. blah blah blah
-                </p>
-              </div>
-            </div>
-          </div>
-          <hr>
-          <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="./img/ssl.png">
-              <div class="card-body">
-                <h4 class="card-title">Network Project</h4>
-                <p class="card-text" style="text-align: just  ify">
-                  *explain blah blah blah*
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="./img/mastermind.png">
-              <div class="card-body">
-                <h4 class="card-title">Python Webgame Mastermind</h4>
-                <p class="card-text" style="text-align: justify">
-                  Once i was playing a board game mastermind with my girlfriend. Since i have terrible memory, i tend to forget stuff and make mistakes on this kinda games. So, i was figuring out how to solve this issue, and i came out a solution;why not coding it? This game is coded in python. blah blah blah
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- create contact -->
-      <section id="contact" class="bg-white">
-        <div class="container">
-          <div class="row pt-5">
-            <div class="col-lg-6">
-              <h2 class="mt-5">Contact</h2>
-                <div class="d-flex flex-row">
-                  <div class="p-3 align-self-start">
-                    <img src="./img/check2.svg">
-                  </div>
-                  <div class="p-3 align-self-end" style="text-align: justify">
-                    1
-                  </div>
-                </div>
-                <div class="d-flex flex-row">
-                  <div class="p-3 align-self-start">
-                    <img src="./img/check.svg">
-                  </div>
-                  <div class="p-3 align-self-end" style="text-align: justify">
-                    2
-                  </div>
-                </div>
-                <div class="d-flex flex-row">
-                  <div class="p-3 align-self-start">
-                    <img src="./img/check.svg">
-                  </div>
-                  <div class="p-3 align-self-end" style="text-align: justify">
-                    3
-                  </div>
-                </div>
-                <div class="d-flex flex-row">
-                  <div class="p-3 align-self-start">
-                    <img src="./img/check.svg">
-                  </div>
-                  <div class="p-3 align-self-end" style="text-align: justify">
-                    4
-                  </div>
-                </div>
-                <div class="d-flex flex-row">
-                  <div class="p-3 align-self-start">
-                    <img src="./img/check.svg">
-                  </div>
-                  <div class="p-3 align-self-end" style="text-align: justify">
-                    5
-                  </div>
-                </div>
-                <div class="d-flex flex-row">
-                  <div class="p-3 align-self-start">
-                    <img src="./img/check.svg">
-                  </div>
-                  <div class="p-3 align-self-end" style="text-align: justify">
-                    6
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="card text-center card-form mt-4 mb-4">
-                  <div class="card-body">
-                    <h2>Inquiry</h2>
-                    <form>
-                      <div class="form-group">
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                      </div>
-                      <div class="form-group">
-                        <input type="text" class="form-control form-control-lg" placeholder="E-mail">
-                      </div>
-                      <div class="form-group">
-                        <input type="text" class="form-control form-control-lg" placeholder="Phone">
-                      </div>
-                      <div class="form-group">
-                        <textarea type="text" class="form-control form-control-lg" placeholder="Contents"></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-success">Submit</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <footer class="text-center bg-dark text-white">
-          <div class="footer-above">
-            <div class="container pt-4">
-              <div class="row">
-                <div class="footer-col col-md-4">
-                  <h3>Location</h3>
-                  <p>Incheon Cheonna</p>
-                </div>
-                <div class="footer-col col-md-4 mb-2">
-                  <h3>Social Media</h3>
-                  <a href="#" class="btn btn-light m-2">Facebook</a>
-                  <a href="#" class="btn btn-light m-2">Youtube</a>
-                  <a href="#" class="btn btn-light m-2">Instagram</a>
-                </div>
-                <div class="foot-col col-md-4">
-                  <h3>Kim Minki</h3>
-                  <p>Hewwo</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="fotter-below pb-4">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12">
-                  Copyright &copy; Kim Minki 2020
-                </div>
-              </div>
-            </div>
-          </div>
+      {{>footer}}
     <!-- apply jquery javascript -->
     <script src="./js/jquery.min.js"></script>
       <!-- apply popper Javascript -->
