@@ -1,0 +1,20 @@
+body {
+  background-color: #C5CAE9;
+}
+div {
+  margin: 5% 20%;
+  text-align:center;
+  border: 5px solid;
+  background-color: #FFFFFF;
+}
+h1 {
+  color: #303F9F;
+  font-size: 2000%;
+  margin: 0px;
+}
+h2 {
+  color: #1A237E;
+  font-size: 500%;
+  margin-top: 0px;
+  margin-bottom: 10%;
+}
