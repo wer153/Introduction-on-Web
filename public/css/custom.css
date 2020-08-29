@@ -2,27 +2,41 @@
 @import url('https://fonts.googleapis.com/earlyaccess/jejugothic.css');
 h1, h4, .navbar-brand {
   font-family: 'Jeju Gothic';
-  color: #3F51B5;
+  color: #2D3E4E;
 }
 
 h2 {
   font-family: 'Jeju Gothic';
-  color: #1A237E;
+  color: #2D3E4E;
 }
 
 h3 {
-  color: #C5CAE9;
+  color: #E09E50;
 }
 body {
   font-family: 'Nanum Gothic';
-  background-color: #C5CAE9;
-}
-.navbar {
-  border-bottom: #303F9F 6px solid;
+  background-color: #8CBDB9;
+  margin:
 }
 
-a:link, a:visited{
+header {
+  background-color: #2D3E4E;
+  color: #E8ECEB;
+}
+
+header nav a {
+  font #E09E50;
+}
+footer {
+  color: #E09E50;
+  background-color:  #2D3E4E;
+  bottom: 0;
+  width: 100%;
+}
+
+.card a:link, .card a:visited{
   text-decoration: none;
   color:#000000
 }
 /** color : cyan **/
+/** WHITE #E8ECEB YELLOW #E09E50 GREEN #8CBDB9 DEEPBLUE #2D3E4E **/

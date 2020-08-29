@@ -10,46 +10,42 @@
     <link rel="stylesheet" href="./css/custom.css">
   </head>
   <body>
-    <div id="home">
-      {{>header}}
-      <!-- create profile -->
-      <section class="container mt-5 pt-5">
-        <div class="text-center">
-          <img src="./img/profile.jpg" class="img-fluid mt-5 mb-3 rounded-circle">
-          <h2>Kim Minki</h2>
-          <img src="./img/coffee.svg" class ="img-fluid mr-1">Programmer
-        </div>
-	    </section>
-      <!-- create sub-profile -->
-      <section id="career" class="bg-white text-dark mt-5 mb-3 pt-5 pb-4">
-        <div class-"text-center">
-          <div class="container text-left mb-5 mt-5" style="max-width: 480px;">
-            <h2>Certificates</h2>
-            <hr>
-            <h4>English Fluency</h4>
+    {{>header}}
+    <!-- create profile -->
+    <section id="me" class="container mt-5 pt-5">
+      <div class="text-center">
+        <img src="./img/profile.jpg" class="img-fluid mt-5 mb-3 rounded-circle">
+        <h2>Kim Minki</h2>
+      </div>
+    </section>
+    <!-- create sub-profile -->
+    <section id="career" class="bg-white text-dark mt-5 mb-3 pt-5 pb-4">
+      <div class="text-center">
+        <div class="container text-left mb-5 mt-5" style="max-width: 480px;">
+          <h2>Certificates</h2>
+          <hr>
+          <h4>English Fluency</h4>
+          <ul>
+            <li>TOEIC 930</li>
+            <li>OPIC AL</li>
+          </ul>
+          <h4>Computer Science</h4>
             <ul>
-              <li>TOEIC 930</li>
-              <li>OPIC AL</li>
+              <li>Engineer Information Processing [정보처리기사]</li>
+              <li>Engineer Computer System Application<br>[전자계산기조직응용기사]</li>
+              <li>MOS Master(Excel, Access, PowerPoint, Word)</li>
+              <li>Photoshop CS6</li>
             </ul>
-            <h4>Computer Science</h4>
-              <ul>
-                <li>Engineer Information Processing [정보처리기사]</li>
-                <li>Engineer Computer System Application<br>[전자계산기조직응용기사]</li>
-                <li>MOS Master(Excel, Access, PowerPoint, Word)</li>
-                <li>Photoshop CS6</li>
-              </ul>
-            <h4>ETC</h4>
-              <ul>
-                <li>2nd Grade on Korean History Test<br>[한국사 검정능력시험 2급]</li>
-              </ul>
-          </div>
+          <h4>ETC</h4>
+            <ul>
+              <li>2nd Grade on Korean History Test<br>[한국사 검정능력시험 2급]</li>
+            </ul>
         </div>
-      </section>
-      {{>footer}}
-
+      </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
   </body>
+  {{>footer}}
 </html>
